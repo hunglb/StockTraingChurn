@@ -1,0 +1,65 @@
+[
+  {
+    "args": [],
+    "author": "1042",
+    "dateCreated": 1566217495,
+    "displayName": "TradingChurnRiskClassificationSparkML-1566217458477",
+    "env": [
+      "SPARK_VERSION=2.2"
+    ],
+    "fileName": "TradingChurnRiskClassificationSparkML-model-evaluation-1566217458477.py",
+    "jobId": "cd3200f4cf202cae",
+    "jobName": "tradingchurnriskclassificationsparkml-1566217458477",
+    "mainScript": [
+      "/opt/conda/bin/python",
+      "scripts/TradingChurnRiskClassificationSparkML-model-evaluation-1566217458477.py"
+    ],
+    "remoteOptions": [],
+    "runtimeEnvironment": "dsx-scripted-ml-python3",
+    "scheduleDescription": "On demand",
+    "targetHost": "",
+    "type": "Model evaluation"
+  },
+  {
+    "args": [],
+    "author": "1042",
+    "dateCreated": 1566217608,
+    "displayName": "TradingChurnRiskClassificationSparkML-1566217586425",
+    "env": [
+      "SPARK_VERSION=2.2"
+    ],
+    "fileName": "TradingChurnRiskClassificationSparkML-model-evaluation-1566217586425.py",
+    "jobId": "d11a37859132c208",
+    "jobName": "tradingchurnriskclassificationsparkml-1566217586425",
+    "mainScript": [
+      "/opt/conda/bin/python",
+      "scripts/TradingChurnRiskClassificationSparkML-model-evaluation-1566217586425.py"
+    ],
+    "remoteOptions": [],
+    "runtimeEnvironment": "dsx-scripted-ml-python3",
+    "scheduleDescription": "On demand",
+    "targetHost": "",
+    "type": "Model evaluation"
+  },
+  {
+    "args": [],
+    "author": "1042",
+    "dateCreated": 1566217680,
+    "displayName": "TradingChurnRiskClassificationSparkML-1566217662969",
+    "env": [
+      "SPARK_VERSION=2.2"
+    ],
+    "fileName": "TradingChurnRiskClassificationSparkML-batch-scoring-1566217662969.py",
+    "jobId": "530c56237c759d75",
+    "jobName": "tradingchurnriskclassificationsparkml-1566217662969",
+    "mainScript": [
+      "/opt/conda/bin/python",
+      "scripts/TradingChurnRiskClassificationSparkML-batch-scoring-1566217662969.py"
+    ],
+    "remoteOptions": [],
+    "runtimeEnvironment": "dsx-scripted-ml-python3",
+    "scheduleDescription": "On demand",
+    "targetHost": "",
+    "type": "Batch scoring"
+  }
+]

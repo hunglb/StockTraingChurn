@@ -1,0 +1,8 @@
+09/12/18/18 17:32:50.485|INFO ||||com.ibm.analytics.ngp.ingest.Sampling$.trainingSplit(Sampling.scala:12)|Splitting the data in this ratio (train, validate, test): 60.0 : 20.0 : 20.0
+09/12/18/18 17:32:51.436|INFO ||||com.ibm.analytics.ngp.ingest.Sampling$.trainingSplit(Sampling.scala:14)|splits(0): 1239
+09/12/18/18 17:32:52.608|INFO ||||com.ibm.analytics.ngp.ingest.Sampling$.trainingSplit(Sampling.scala:15)|splits(1): 408
+09/12/18/18 17:32:53.023|INFO ||||com.ibm.analytics.ngp.ingest.Sampling$.trainingSplit(Sampling.scala:16)|splits(2): 419
+09/15/18/18 20:35:46.469|INFO ||||com.ibm.analytics.ngp.ingest.Sampling$.trainingSplit(Sampling.scala:12)|Splitting the data in this ratio (train, validate, test): 60.0 : 20.0 : 20.0
+09/15/18/18 20:35:47.754|INFO ||||com.ibm.analytics.ngp.ingest.Sampling$.trainingSplit(Sampling.scala:14)|splits(0): 1252
+09/15/18/18 20:35:48.710|INFO ||||com.ibm.analytics.ngp.ingest.Sampling$.trainingSplit(Sampling.scala:15)|splits(1): 418
+09/15/18/18 20:35:51.471|INFO ||||com.ibm.analytics.ngp.ingest.Sampling$.trainingSplit(Sampling.scala:16)|splits(2): 396

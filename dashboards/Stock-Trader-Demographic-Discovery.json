@@ -1,0 +1,1200 @@
+{
+  "name": "New dashboard",
+  "layout": {
+    "id": "page0",
+    "items": [
+      {
+        "id": "page1",
+        "items": [
+          {
+            "id": "page2",
+            "css": "templateBox aspectRatio_default",
+            "items": [
+              {
+                "id": "page3",
+                "style": {
+                  "top": "0%",
+                  "left": "0%",
+                  "right": "50%",
+                  "bottom": "75%"
+                },
+                "type": "templateDropZone",
+                "templateName": "dz1",
+                "relatedLayouts": "|model0000016ca982704f_00000002|"
+              },
+              {
+                "id": "page4",
+                "css": "noBorderLeft",
+                "style": {
+                  "top": "0%",
+                  "left": "50%",
+                  "right": "0%",
+                  "bottom": "75%"
+                },
+                "type": "templateDropZone",
+                "templateName": "dz3",
+                "relatedLayouts": "|model0000016ca983a905_00000003|"
+              },
+              {
+                "id": "page5",
+                "css": "noBorderTop",
+                "style": {
+                  "top": "25%",
+                  "left": "0%",
+                  "right": "0%",
+                  "bottom": "0%"
+                },
+                "type": "templateDropZone",
+                "templateName": "dz2",
+                "relatedLayouts": ""
+              },
+              {
+                "id": "model0000016ca982704f_00000002",
+                "style": {
+                  "left": "0.8064516129032258%",
+                  "top": "0.9320905459387483%",
+                  "height": "24.500665778961384%",
+                  "width": "49.9266862170088%"
+                },
+                "type": "widget",
+                "relatedLayouts": "page3"
+              },
+              {
+                "id": "model0000016ca983a905_00000003",
+                "style": {
+                  "left": "50.0733137829912%",
+                  "top": "0.3994673768308921%",
+                  "height": "24.500665778961384%",
+                  "width": "50.146627565982406%"
+                },
+                "type": "widget",
+                "relatedLayouts": "page4"
+              },
+              {
+                "id": "model0000016ca984b0a9_00000000",
+                "style": {
+                  "left": "8.533333333333333%",
+                  "top": "31.515151515151516%",
+                  "height": "30.90909090909091%",
+                  "width": "22.333333333333332%"
+                },
+                "type": "widget",
+                "relatedLayouts": ""
+              },
+              {
+                "id": "model0000016ca985d153_00000000",
+                "style": {
+                  "left": "48.04913294797688%",
+                  "top": "26.149802890932982%",
+                  "height": "37.97634691195795%",
+                  "width": "51.80635838150289%"
+                },
+                "type": "widget",
+                "relatedLayouts": ""
+              },
+              {
+                "id": "model0000016ca9a983d0_00000000",
+                "style": {
+                  "left": "0.21676300578034682%",
+                  "top": "64.5203679369251%",
+                  "height": "37.319316688567675%",
+                  "width": "100%"
+                },
+                "type": "widget",
+                "relatedLayouts": ""
+              }
+            ],
+            "type": "scalingAbsolute"
+          }
+        ],
+        "type": "container",
+        "title": {
+          "translationTable": {
+            "Default": "Risk Demographics"
+          }
+        },
+        "templateName": "Template3"
+      },
+      {
+        "id": "model0000016ca9af54a3_00000000",
+        "items": [
+          {
+            "id": "model0000016ca9b22381_00000003",
+            "style": {
+              "left": "19px",
+              "top": "13px",
+              "height": "151px",
+              "width": "663px"
+            },
+            "type": "widget"
+          },
+          {
+            "id": "model0000016ca9b2bf08_00000000",
+            "style": {
+              "left": "99px",
+              "top": "230px",
+              "height": "420px",
+              "width": "500px"
+            },
+            "type": "widget"
+          },
+          {
+            "id": "model0000016ca9b7b17e_00000003",
+            "style": {
+              "left": "798px",
+              "top": "13px",
+              "height": "149px",
+              "width": "588px"
+            },
+            "type": "widget"
+          },
+          {
+            "id": "model0000016ca9b9aa83_00000000",
+            "style": {
+              "left": "740px",
+              "top": "216px",
+              "height": "420px",
+              "width": "704px"
+            },
+            "type": "widget"
+          }
+        ],
+        "type": "absolute",
+        "title": {
+          "translationTable": {
+            "Default": "Risk to the Business"
+          }
+        },
+        "templateName": "NoTemplate"
+      }
+    ],
+    "style": {
+      "height": "100%"
+    },
+    "type": "tab"
+  },
+  "theme": "defaultTheme",
+  "version": 1009,
+  "eventGroups": [
+    {
+      "id": "page1:1",
+      "widgetIds": [
+        "model0000016ca982704f_00000002",
+        "model0000016ca983a905_00000003",
+        "model0000016ca984b0a9_00000000",
+        "model0000016ca985d153_00000000",
+        "model0000016ca9a983d0_00000000"
+      ]
+    },
+    {
+      "id": "model0000016ca9af54a3_00000000:1",
+      "widgetIds": [
+        "model0000016ca9b22381_00000003",
+        "model0000016ca9b2bf08_00000000",
+        "model0000016ca9b7b17e_00000003",
+        "model0000016ca9b9aa83_00000000"
+      ]
+    }
+  ],
+  "properties": {
+    "defaultLocale": "Default"
+  },
+  "dataSources": {
+    "version": "1.0",
+    "sources": [
+      {
+        "id": "model0000016ca9799996_00000002",
+        "assetId": "assetId0000016ca9799996_00000000",
+        "clientId": "eyJwcm9qZWN0IjoiVHJhZGluZ0N1c3RvbWVyQ2h1cm4iLCJuYW1lIjoiQ3VzdG9tZXJNZXJnZWQiLCJ0eXBlIjoiREIyIn0=",
+        "module": {
+          "identifier": "aMERGED_DEMOGRAPHICS_TRADING_CUSTOMER",
+          "label": "MERGED_DEMOGRAPHICS_TRADING_CUSTOMER",
+          "source": {
+            "id": "MERGED_DEMOGRAPHICS_TRADING_CUSTOMER",
+            "jdbc": {
+              "connectionProperties": "",
+              "driverClassName": "com.ibm.db2.jcc.DB2Driver",
+              "jdbcUrl": "{enc}k8G55dsUPIMPWZFlED7rmuaFHqW+244lYJrzM7dAr1X3rNEDU2topQ4MfA2wdZNqqrzqdIeuqPnJrrMYFRBO+iyDGl5YsDAPi/jCydAmc8JD9g7G1LKK3oYt2aASZTyS32i9KkdzscR8HsDIDciaJluOlWxFikXD7jGfQEGvrRagXQKYQpRGSC9UjP4hhQpAPdU+qhk6nY3iyFDLqT0GeeBHBnhgDDiz8fLu6yUCQ4WNj89cWe7AzdaK8SzdDIt6G8xc7YjscP4nGOtBzTfEBJFAh/FoEBN3MslZCPQ7FZYc5+h3259v5uiLo9dUfe+CGDckRPKyIQ2ktIJqiizGyg==",
+              "schema": "{enc}odOKGahyhPVSUoMbHRYy7SKBpT5TPn2uvagT6467mpXVyCryUggAjJDVZS51JTR15m8Rus+Kww5s7WOVswBT/dQWNHJCJRak35w1eZcLzovImSAZBQJltYt4Pvd438M/yD59UjdBMGeQKPGZTnyAzFuQOo4k7wO/Fnxq3cpBcKMNRegtDQ/mTT6XzPSdvKZyJib+uTNLVAEBwsDk6oluAF8PeuAzKeERV9AhvmV4efQzW8yHgNO4PXbU17SQYxlWXxAKXY3LMZpD03rw5rBiVr79FI3xteo6BGcFFMB5jzyI8t6j/0M4aR4DS85D7f5dqqYVNm1/06aLtnjF0u3Qqw=="
+            },
+            "password": "{enc}iGWC3tgxVKNq57MvCYvr/pQlW4BO2le4VtJLu3MP6TAytOOGDSKoJA6FY9LQ7UMXPjAysePAuB5oYZulzfcmiKLIg5qz5sW6bxmqs6tE7UZYBql2WjDMDhPBKG2+QlEgIUDEQ5O47RsHQN9vx8xUmSV4zAJYZrPMjBIzIKu8md4hBw15bvQwMqslWfUSAsOuOK2wtWcHFo8t9SslYKLWOHkFtLE7dDRO/0xTqOKSSlf4Pxl6MSZVfn/SQeCiQYyI27Ref56nViVuMwBtof8LE1zFy+nkfD+kVN12riT11FEIR6a3chWecvRegqncP266JQj3S8VpSiotSN7p2EI/CQ==",
+            "user": "{enc}cukaQPlmDR7LfoO4M6JVRWyai102KIFybGTX3YQyJeIeMnKD+QtB5qxP7RMgyj9vHGgh0f9SADiMmjaIRoW+jHxRFonGrxsHAeV06xslRjtHtwo+fpagllGuqu4zNU9gOQ30vFq4lKkH09y0xEL/He78al88N6VzIDuIOuA+EJHVeBZ/8wYzPfm9VvRC9rgjhaS7LLiJMfRwg7a+hdNsNU9qdy0+W+ieHxH7i2NDl48oEEFL8MlCYknrA1+X4TejW9eiO+p6TB1AOmavPjDz1fIqUj3FMgN0ZjuVpOeegew+gA1TqEhDPlZhj07isCHTKfVpv7aFc4aSTsJHN8YjTw=="
+          },
+          "table": {
+            "column": [
+              {
+                "datatype": "smallint",
+                "description": "AGE",
+                "label": "AGE",
+                "name": "AGE",
+                "nullable": true,
+                "regularAggregate": "countDistinct",
+                "taxonomyFamily": "cNone",
+                "usage": "identifier"
+              },
+              {
+                "datatype": "smallint",
+                "description": "CHILDREN",
+                "label": "CHILDREN",
+                "name": "CHILDREN",
+                "nullable": true,
+                "regularAggregate": "total",
+                "taxonomyFamily": "cNone",
+                "usage": "fact"
+              },
+              {
+                "datatype": "varchar(6)",
+                "description": "CHURNRISK",
+                "label": "CHURNRISK",
+                "name": "CHURNRISK",
+                "nullable": true,
+                "regularAggregate": "countDistinct",
+                "taxonomyFamily": "cNone",
+                "usage": "attribute"
+              },
+              {
+                "datatype": "smallint",
+                "description": "DAYSSINCELASTLOGIN",
+                "label": "DAYSSINCELASTLOGIN",
+                "name": "DAYSSINCELASTLOGIN",
+                "nullable": true,
+                "regularAggregate": "countDistinct",
+                "taxonomyFamily": "cDay",
+                "usage": "identifier"
+              },
+              {
+                "datatype": "smallint",
+                "description": "DAYSSINCELASTTRADE",
+                "label": "DAYSSINCELASTTRADE",
+                "name": "DAYSSINCELASTTRADE",
+                "nullable": true,
+                "regularAggregate": "countDistinct",
+                "taxonomyFamily": "cDay",
+                "usage": "identifier"
+              },
+              {
+                "datatype": "decimal(8)",
+                "description": "ESTINCOME",
+                "label": "ESTINCOME",
+                "name": "ESTINCOME",
+                "nullable": true,
+                "regularAggregate": "total",
+                "taxonomyFamily": "cNone",
+                "usage": "fact"
+              },
+              {
+                "datatype": "VARCHAR(MAX)",
+                "description": "GENDER",
+                "label": "GENDER",
+                "name": "GENDER",
+                "nullable": true,
+                "regularAggregate": "countDistinct",
+                "taxonomyFamily": "cNone",
+                "usage": "attribute"
+              },
+              {
+                "datatype": "VARCHAR(MAX)",
+                "description": "HOMEOWNER",
+                "label": "HOMEOWNER",
+                "name": "HOMEOWNER",
+                "nullable": true,
+                "regularAggregate": "countDistinct",
+                "taxonomyFamily": "cNone",
+                "usage": "attribute"
+              },
+              {
+                "datatype": "smallint",
+                "description": "ID",
+                "label": "ID",
+                "name": "ID",
+                "nullable": true,
+                "regularAggregate": "countDistinct",
+                "taxonomyFamily": "cNone",
+                "usage": "identifier"
+              },
+              {
+                "datatype": "decimal(12)",
+                "description": "LARGESTSINGLETRANSACTION",
+                "label": "LARGESTSINGLETRANSACTION",
+                "name": "LARGESTSINGLETRANSACTION",
+                "nullable": true,
+                "regularAggregate": "total",
+                "taxonomyFamily": "cNone",
+                "usage": "fact"
+              },
+              {
+                "datatype": "decimal(12)",
+                "description": "NETREALIZEDGAINS_YTD",
+                "label": "NETREALIZEDGAINS_YTD",
+                "name": "NETREALIZEDGAINS_YTD",
+                "nullable": true,
+                "regularAggregate": "total",
+                "taxonomyFamily": "cNone",
+                "usage": "fact"
+              },
+              {
+                "datatype": "decimal(6)",
+                "description": "PERCENTCHANGECALCULATION",
+                "label": "PERCENTCHANGECALCULATION",
+                "name": "PERCENTCHANGECALCULATION",
+                "nullable": true,
+                "regularAggregate": "total",
+                "taxonomyFamily": "cNone",
+                "usage": "fact"
+              },
+              {
+                "datatype": "decimal(13)",
+                "description": "SMALLESTSINGLETRANSACTION",
+                "label": "SMALLESTSINGLETRANSACTION",
+                "name": "SMALLESTSINGLETRANSACTION",
+                "nullable": true,
+                "regularAggregate": "total",
+                "taxonomyFamily": "cNone",
+                "usage": "fact"
+              },
+              {
+                "datatype": "VARCHAR(MAX)",
+                "description": "STATUS",
+                "label": "STATUS",
+                "name": "STATUS",
+                "nullable": true,
+                "regularAggregate": "countDistinct",
+                "taxonomyFamily": "cNone",
+                "usage": "attribute"
+              },
+              {
+                "datatype": "decimal(9)",
+                "description": "TOTALDOLLARVALUETRADED",
+                "label": "TOTALDOLLARVALUETRADED",
+                "name": "TOTALDOLLARVALUETRADED",
+                "nullable": true,
+                "regularAggregate": "total",
+                "taxonomyFamily": "cNone",
+                "usage": "fact"
+              },
+              {
+                "datatype": "smallint",
+                "description": "TOTALUNITSTRADED",
+                "label": "TOTALUNITSTRADED",
+                "name": "TOTALUNITSTRADED",
+                "nullable": true,
+                "regularAggregate": "total",
+                "taxonomyFamily": "cNone",
+                "usage": "fact"
+              }
+            ],
+            "name": "MERGED_DEMOGRAPHICS_TRADING_CUSTOMER"
+          },
+          "xsd": "https://ibm.com/daas/module/1.0/module.xsd"
+        },
+        "name": "CustomerMerged",
+        "shaping": {
+          "shapingId": "shaping0000016ca9814c10_00000000",
+          "embeddedModuleUpToDate": false,
+          "moserJSON": {
+            "version": "5.0.1",
+            "container": "C",
+            "useSpec": [
+              {
+                "identifier": "ES",
+                "type": "url",
+                "storeID": "baseModule",
+                "imports": "*"
+              }
+            ],
+            "expressionLocale": "en-us",
+            "querySubject": [
+              {
+                "ref": [
+                  "ES.MERGED_DEMOGRAPHICS_TRADING_CUSTOMER"
+                ],
+                "instanceType": "reference",
+                "item": [
+                  {
+                    "queryItem": {
+                      "usage": "attribute",
+                      "regularAggregate": "none",
+                      "identifier": "AGE",
+                      "property": [
+                        {
+                          "name": "propertySetByUser_usage",
+                          "value": "true"
+                        },
+                        {
+                          "name": "propertySetByUser_regularAggregate",
+                          "value": "true"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "queryItem": {
+                      "usage": "attribute",
+                      "regularAggregate": "none",
+                      "identifier": "CHILDREN",
+                      "property": [
+                        {
+                          "name": "propertySetByUser_usage",
+                          "value": "true"
+                        },
+                        {
+                          "name": "propertySetByUser_regularAggregate",
+                          "value": "true"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "queryItem": {
+                      "regularAggregate": "none",
+                      "identifier": "CHURNRISK",
+                      "property": [
+                        {
+                          "name": "propertySetByUser_regularAggregate",
+                          "value": "true"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "queryItem": {
+                      "usage": "fact",
+                      "regularAggregate": "none",
+                      "identifier": "DAYSSINCELASTLOGIN",
+                      "property": [
+                        {
+                          "name": "propertySetByUser_usage",
+                          "value": "true"
+                        },
+                        {
+                          "name": "propertySetByUser_regularAggregate",
+                          "value": "true"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "queryItem": {
+                      "usage": "fact",
+                      "regularAggregate": "none",
+                      "identifier": "DAYSSINCELASTTRADE",
+                      "property": [
+                        {
+                          "name": "propertySetByUser_usage",
+                          "value": "true"
+                        },
+                        {
+                          "name": "propertySetByUser_regularAggregate",
+                          "value": "true"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "queryItem": {
+                      "regularAggregate": "none",
+                      "identifier": "ESTINCOME",
+                      "property": [
+                        {
+                          "name": "propertySetByUser_regularAggregate",
+                          "value": "true"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "queryItem": {
+                      "regularAggregate": "none",
+                      "identifier": "GENDER",
+                      "property": [
+                        {
+                          "name": "propertySetByUser_regularAggregate",
+                          "value": "true"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "queryItem": {
+                      "regularAggregate": "none",
+                      "identifier": "HOMEOWNER",
+                      "property": [
+                        {
+                          "name": "propertySetByUser_regularAggregate",
+                          "value": "true"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "queryItem": {
+                      "regularAggregate": "none",
+                      "identifier": "NETREALIZEDGAINS_YTD",
+                      "property": [
+                        {
+                          "name": "propertySetByUser_regularAggregate",
+                          "value": "true"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "queryItem": {
+                      "regularAggregate": "none",
+                      "identifier": "PERCENTCHANGECALCULATION",
+                      "property": [
+                        {
+                          "name": "propertySetByUser_regularAggregate",
+                          "value": "true"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "queryItem": {
+                      "regularAggregate": "none",
+                      "identifier": "SMALLESTSINGLETRANSACTION",
+                      "property": [
+                        {
+                          "name": "propertySetByUser_regularAggregate",
+                          "value": "true"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "queryItem": {
+                      "regularAggregate": "none",
+                      "identifier": "STATUS",
+                      "property": [
+                        {
+                          "name": "propertySetByUser_regularAggregate",
+                          "value": "true"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "identifier": "MERGED_DEMOGRAPHICS_TRADING_CUSTOMER"
+              }
+            ],
+            "dataRetrievalMode": "liveConnection",
+            "identifier": "newModel",
+            "label": "newModel"
+          }
+        }
+      }
+    ]
+  },
+  "pageContext": [
+    {
+      "origin": "filter",
+      "table": "",
+      "alias": "0",
+      "sourceId": "model0000016ca9799996_00000002",
+      "scope": "page1",
+      "hierarchyNames": [
+        "CHURNRISK"
+      ],
+      "hierarchyUniqueNames": [
+        "MERGED_DEMOGRAPHICS_TRADING_CUSTOMER.CHURNRISK"
+      ],
+      "exclude": false,
+      "isNamedSet": false,
+      "tupleSet": "{\"MERGED_DEMOGRAPHICS_TRADING_CUSTOMER.CHURNRISK->[High]\":{\"u\":\"MERGED_DEMOGRAPHICS_TRADING_CUSTOMER.CHURNRISK->[High]\",\"d\":\"High\"}}"
+    },
+    {
+      "origin": "filter",
+      "table": "",
+      "alias": "0",
+      "sourceId": "model0000016ca9799996_00000002",
+      "scope": "model0000016ca9af54a3_00000000",
+      "hierarchyNames": [
+        "CHURNRISK"
+      ],
+      "hierarchyUniqueNames": [
+        "MERGED_DEMOGRAPHICS_TRADING_CUSTOMER.CHURNRISK"
+      ],
+      "exclude": false,
+      "isNamedSet": false,
+      "tupleSet": "{\"MERGED_DEMOGRAPHICS_TRADING_CUSTOMER.CHURNRISK->[High]\":{\"u\":\"MERGED_DEMOGRAPHICS_TRADING_CUSTOMER.CHURNRISK->[High]\",\"d\":\"High\"}}"
+    },
+    {
+      "origin": "filter",
+      "table": "",
+      "alias": "0",
+      "sourceId": "model0000016ca9799996_00000002",
+      "scope": "model0000016ca9af54a3_00000000",
+      "hierarchyNames": [
+        "GENDER"
+      ],
+      "hierarchyUniqueNames": [
+        "MERGED_DEMOGRAPHICS_TRADING_CUSTOMER.GENDER"
+      ],
+      "exclude": false,
+      "isNamedSet": false,
+      "tupleSet": "{\"MERGED_DEMOGRAPHICS_TRADING_CUSTOMER.GENDER->[F]\":{\"u\":\"MERGED_DEMOGRAPHICS_TRADING_CUSTOMER.GENDER->[F]\",\"d\":\"F\"}}"
+    },
+    {
+      "origin": "filter",
+      "table": "",
+      "alias": "0",
+      "sourceId": "model0000016ca9799996_00000002",
+      "scope": "model0000016ca9af54a3_00000000",
+      "hierarchyNames": [
+        "CHILDREN"
+      ],
+      "hierarchyUniqueNames": [
+        "MERGED_DEMOGRAPHICS_TRADING_CUSTOMER.CHILDREN"
+      ],
+      "exclude": false,
+      "isNamedSet": false,
+      "tupleSet": "{\"MERGED_DEMOGRAPHICS_TRADING_CUSTOMER.CHILDREN->[2]\":{\"u\":\"MERGED_DEMOGRAPHICS_TRADING_CUSTOMER.CHILDREN->[2]\",\"d\":2}}"
+    },
+    {
+      "origin": "filter",
+      "table": "",
+      "alias": "0",
+      "sourceId": "model0000016ca9799996_00000002",
+      "conditions": [
+        {
+          "from": [
+            2
+          ],
+          "to": [
+            20
+          ],
+          "attributeUniqueNames": [
+            "MERGED_DEMOGRAPHICS_TRADING_CUSTOMER.DAYSSINCELASTTRADE"
+          ]
+        }
+      ],
+      "scope": "model0000016ca9af54a3_00000000",
+      "hierarchyNames": [
+        "DAYSSINCELASTTRADE"
+      ],
+      "hierarchyUniqueNames": [
+        "MERGED_DEMOGRAPHICS_TRADING_CUSTOMER.DAYSSINCELASTTRADE"
+      ],
+      "isNamedSet": false
+    },
+    {
+      "origin": "visualization",
+      "table": "",
+      "alias": "0",
+      "sourceId": "model0000016ca9799996_00000002",
+      "hierarchies": [
+        {
+          "hierarchyUniqueName": "MERGED_DEMOGRAPHICS_TRADING_CUSTOMER.DAYSSINCELASTLOGIN"
+        }
+      ],
+      "scope": "model0000016ca9af54a3_00000000",
+      "hierarchyUniqueNames": [
+        "MERGED_DEMOGRAPHICS_TRADING_CUSTOMER.DAYSSINCELASTLOGIN"
+      ],
+      "eventSourceId": "model0000016ca9b2bf08_00000000",
+      "eventGroupId": "model0000016ca9af54a3_00000000:1",
+      "tupleSet": "{\"2\":{\"u\":\"2\",\"d\":2}}"
+    },
+    {
+      "origin": "visualization",
+      "table": "",
+      "alias": "0",
+      "sourceId": "model0000016ca9799996_00000002",
+      "hierarchies": [
+        {
+          "hierarchyUniqueName": "MERGED_DEMOGRAPHICS_TRADING_CUSTOMER.GENDER"
+        },
+        {
+          "hierarchyUniqueName": "MERGED_DEMOGRAPHICS_TRADING_CUSTOMER.CHILDREN"
+        },
+        {
+          "hierarchyUniqueName": "MERGED_DEMOGRAPHICS_TRADING_CUSTOMER.STATUS"
+        },
+        {
+          "hierarchyUniqueName": "MERGED_DEMOGRAPHICS_TRADING_CUSTOMER.HOMEOWNER"
+        },
+        {
+          "hierarchyUniqueName": "MERGED_DEMOGRAPHICS_TRADING_CUSTOMER.AGE"
+        }
+      ],
+      "scope": "page1",
+      "hierarchyUniqueNames": [
+        "MERGED_DEMOGRAPHICS_TRADING_CUSTOMER.GENDER",
+        "MERGED_DEMOGRAPHICS_TRADING_CUSTOMER.CHILDREN",
+        "MERGED_DEMOGRAPHICS_TRADING_CUSTOMER.STATUS",
+        "MERGED_DEMOGRAPHICS_TRADING_CUSTOMER.HOMEOWNER",
+        "MERGED_DEMOGRAPHICS_TRADING_CUSTOMER.AGE"
+      ],
+      "eventSourceId": "model0000016ca9a983d0_00000000",
+      "eventGroupId": "page1:1",
+      "tupleSet": "{\"MERGED_DEMOGRAPHICS_TRADING_CUSTOMER.GENDER->[F]MERGED_DEMOGRAPHICS_TRADING_CUSTOMER.CHILDREN->[2]MERGED_DEMOGRAPHICS_TRADING_CUSTOMER.STATUS->[M]MERGED_DEMOGRAPHICS_TRADING_CUSTOMER.HOMEOWNER->[N]MERGED_DEMOGRAPHICS_TRADING_CUSTOMER.AGE->[41]\":[{\"u\":\"MERGED_DEMOGRAPHICS_TRADING_CUSTOMER.GENDER->[F]\",\"d\":\"F\"},{\"u\":\"MERGED_DEMOGRAPHICS_TRADING_CUSTOMER.CHILDREN->[2]\",\"d\":2},{\"u\":\"MERGED_DEMOGRAPHICS_TRADING_CUSTOMER.STATUS->[M]\",\"d\":\"M\"},{\"u\":\"MERGED_DEMOGRAPHICS_TRADING_CUSTOMER.HOMEOWNER->[N]\",\"d\":\"N\"},{\"u\":\"MERGED_DEMOGRAPHICS_TRADING_CUSTOMER.AGE->[41]\",\"d\":41}]}"
+    }
+  ],
+  "drillThrough": [],
+  "widgets": {
+    "model0000016ca982704f_00000002": {
+      "id": "model0000016ca982704f_00000002",
+      "data": {
+        "dataViews": [
+          {
+            "modelRef": "model0000016ca9799996_00000002",
+            "dataItems": [
+              {
+                "id": "model0000016ca982704e_00000000",
+                "itemId": "MERGED_DEMOGRAPHICS_TRADING_CUSTOMER.TOTALUNITSTRADED",
+                "itemLabel": "TOTALUNITSTRADED"
+              }
+            ],
+            "id": "model0000016ca982704f_00000000"
+          }
+        ]
+      },
+      "slotmapping": {
+        "slots": [
+          {
+            "name": "values",
+            "dataItems": [
+              "model0000016ca982704e_00000000"
+            ],
+            "dataItemSettings": [],
+            "caption": "Value",
+            "id": "values",
+            "layerId": "data"
+          }
+        ]
+      },
+      "type": "live",
+      "name": {
+        "translationTable": {}
+      },
+      "visId": "summary"
+    },
+    "model0000016ca983a905_00000003": {
+      "id": "model0000016ca983a905_00000003",
+      "data": {
+        "dataViews": [
+          {
+            "modelRef": "model0000016ca9799996_00000002",
+            "dataItems": [
+              {
+                "id": "model0000016ca983a905_00000000",
+                "itemId": "MERGED_DEMOGRAPHICS_TRADING_CUSTOMER.TOTALDOLLARVALUETRADED",
+                "itemLabel": "TOTALDOLLARVALUETRADED"
+              }
+            ],
+            "id": "model0000016ca983a905_00000001"
+          }
+        ]
+      },
+      "slotmapping": {
+        "slots": [
+          {
+            "name": "values",
+            "dataItems": [
+              "model0000016ca983a905_00000000"
+            ],
+            "dataItemSettings": [],
+            "caption": "Value",
+            "id": "values",
+            "layerId": "data"
+          }
+        ]
+      },
+      "type": "live",
+      "name": {
+        "translationTable": {}
+      },
+      "visId": "summary"
+    },
+    "model0000016ca984b0a9_00000000": {
+      "id": "model0000016ca984b0a9_00000000",
+      "data": {
+        "dataViews": [
+          {
+            "modelRef": "model0000016ca9799996_00000002",
+            "dataItems": [
+              {
+                "id": "model0000016ca985329c_00000000",
+                "itemId": "MERGED_DEMOGRAPHICS_TRADING_CUSTOMER.GENDER",
+                "itemLabel": "GENDER"
+              },
+              {
+                "id": "model0000016ca9855640_00000000",
+                "itemId": "MERGED_DEMOGRAPHICS_TRADING_CUSTOMER.ID",
+                "itemLabel": "ID"
+              }
+            ],
+            "id": "model0000016ca985329b_00000000"
+          }
+        ]
+      },
+      "visTypeLocked": true,
+      "slotmapping": {
+        "slots": [
+          {
+            "name": "categories",
+            "dataItems": [
+              "model0000016ca985329c_00000000"
+            ],
+            "dataItemSettings": [],
+            "caption": "Segments",
+            "id": "categories"
+          },
+          {
+            "name": "values",
+            "dataItems": [
+              "model0000016ca9855640_00000000"
+            ],
+            "caption": "Size",
+            "id": "values"
+          }
+        ]
+      },
+      "type": "live",
+      "visId": "com.ibm.vis.rave2bundlepie",
+      "name": {
+        "translationTable": {}
+      }
+    },
+    "model0000016ca985d153_00000000": {
+      "id": "model0000016ca985d153_00000000",
+      "data": {
+        "dataViews": [
+          {
+            "modelRef": "model0000016ca9799996_00000002",
+            "dataItems": [
+              {
+                "id": "model0000016ca9860cd7_00000002",
+                "itemId": "MERGED_DEMOGRAPHICS_TRADING_CUSTOMER.STATUS",
+                "itemLabel": "STATUS"
+              },
+              {
+                "id": "model0000016ca98636a6_00000000",
+                "itemId": "MERGED_DEMOGRAPHICS_TRADING_CUSTOMER.TOTALDOLLARVALUETRADED",
+                "itemLabel": "TOTALDOLLARVALUETRADED"
+              },
+              {
+                "id": "model0000016ca9865c56_00000001",
+                "itemId": "MERGED_DEMOGRAPHICS_TRADING_CUSTOMER.TOTALUNITSTRADED",
+                "itemLabel": "TOTALUNITSTRADED"
+              },
+              {
+                "id": "model0000016ca986c5ef_00000000",
+                "itemId": "MERGED_DEMOGRAPHICS_TRADING_CUSTOMER.GENDER",
+                "itemLabel": "GENDER"
+              }
+            ],
+            "id": "model0000016ca9860cd7_00000001"
+          }
+        ]
+      },
+      "visTypeLocked": true,
+      "slotmapping": {
+        "slots": [
+          {
+            "name": "categories",
+            "dataItems": [
+              "model0000016ca9860cd7_00000002"
+            ],
+            "dataItemSettings": [],
+            "caption": "x-axis",
+            "id": "categories"
+          },
+          {
+            "name": "columnValue",
+            "dataItems": [
+              "model0000016ca98636a6_00000000"
+            ],
+            "caption": "Length",
+            "id": "columnValue"
+          },
+          {
+            "name": "lineValue",
+            "dataItems": [
+              "model0000016ca9865c56_00000001"
+            ],
+            "caption": "Line position",
+            "id": "lineValue"
+          },
+          {
+            "name": "repeatHorizontal",
+            "dataItems": [
+              "model0000016ca986c5ef_00000000"
+            ],
+            "caption": "Repeat (column)",
+            "id": "repeatHorizontal"
+          }
+        ]
+      },
+      "type": "live",
+      "visId": "com.ibm.vis.rave2bundlecomposite",
+      "name": {
+        "translationTable": {
+          "Default": "High Risk by Marital Status, Gender and Trade Value"
+        }
+      },
+      "showTitle": true
+    },
+    "model0000016ca9a983d0_00000000": {
+      "id": "model0000016ca9a983d0_00000000",
+      "data": {
+        "dataViews": [
+          {
+            "modelRef": "model0000016ca9799996_00000002",
+            "dataItems": [
+              {
+                "id": "model0000016ca9aa0179_00000000",
+                "itemId": "MERGED_DEMOGRAPHICS_TRADING_CUSTOMER.GENDER",
+                "itemLabel": "GENDER"
+              },
+              {
+                "id": "model0000016ca9aa4593_00000000",
+                "itemId": "MERGED_DEMOGRAPHICS_TRADING_CUSTOMER.CHILDREN",
+                "itemLabel": "CHILDREN"
+              },
+              {
+                "id": "model0000016ca9aa59db_00000000",
+                "itemId": "MERGED_DEMOGRAPHICS_TRADING_CUSTOMER.STATUS",
+                "itemLabel": "STATUS"
+              },
+              {
+                "id": "model0000016ca9aa6ec5_00000001",
+                "itemId": "MERGED_DEMOGRAPHICS_TRADING_CUSTOMER.AGE",
+                "itemLabel": "AGE"
+              },
+              {
+                "id": "model0000016ca9aaabde_00000000",
+                "itemId": "MERGED_DEMOGRAPHICS_TRADING_CUSTOMER.CHURNRISK",
+                "itemLabel": "CHURNRISK"
+              },
+              {
+                "id": "model0000016ca9abad43_00000000",
+                "itemId": "MERGED_DEMOGRAPHICS_TRADING_CUSTOMER.HOMEOWNER",
+                "itemLabel": "HOMEOWNER"
+              }
+            ],
+            "id": "model0000016ca9a9e2dd_00000000"
+          }
+        ]
+      },
+      "visTypeLocked": true,
+      "slotmapping": {
+        "slots": [
+          {
+            "name": "categories",
+            "dataItems": [
+              "model0000016ca9aa0179_00000000",
+              "model0000016ca9aa4593_00000000",
+              "model0000016ca9aa59db_00000000"
+            ],
+            "dataItemSettings": [],
+            "caption": "Rows",
+            "id": "categories"
+          },
+          {
+            "name": "series",
+            "dataItems": [
+              "model0000016ca9abad43_00000000",
+              "model0000016ca9aa6ec5_00000001"
+            ],
+            "caption": "Columns",
+            "id": "series"
+          },
+          {
+            "name": "color",
+            "dataItems": [
+              "model0000016ca9aaabde_00000000"
+            ],
+            "caption": "Heat",
+            "id": "color"
+          }
+        ]
+      },
+      "type": "live",
+      "visId": "com.ibm.vis.rave2heat",
+      "name": {
+        "translationTable": {
+          "Default": "Home Owner - Age"
+        }
+      },
+      "showTitle": true
+    },
+    "model0000016ca9b22381_00000003": {
+      "id": "model0000016ca9b22381_00000003",
+      "data": {
+        "dataViews": [
+          {
+            "modelRef": "model0000016ca9799996_00000002",
+            "dataItems": [
+              {
+                "id": "model0000016ca9b22381_00000000",
+                "itemId": "MERGED_DEMOGRAPHICS_TRADING_CUSTOMER.TOTALDOLLARVALUETRADED",
+                "itemLabel": "TOTALDOLLARVALUETRADED"
+              }
+            ],
+            "id": "model0000016ca9b22381_00000001"
+          }
+        ]
+      },
+      "visTypeLocked": false,
+      "slotmapping": {
+        "slots": [
+          {
+            "name": "values",
+            "dataItems": [
+              "model0000016ca9b22381_00000000"
+            ],
+            "dataItemSettings": [],
+            "caption": "Value",
+            "id": "values",
+            "layerId": "data"
+          }
+        ]
+      },
+      "type": "live",
+      "name": {
+        "translationTable": {}
+      },
+      "visId": "summary"
+    },
+    "model0000016ca9b2bf08_00000000": {
+      "id": "model0000016ca9b2bf08_00000000",
+      "data": {
+        "dataViews": [
+          {
+            "modelRef": "model0000016ca9799996_00000002",
+            "dataItems": [
+              {
+                "id": "model0000016ca9b2bf07_00000000",
+                "itemId": "MERGED_DEMOGRAPHICS_TRADING_CUSTOMER.DAYSSINCELASTLOGIN",
+                "itemLabel": "DAYSSINCELASTLOGIN"
+              },
+              {
+                "id": "model0000016ca9b71f42_00000000",
+                "itemId": "MERGED_DEMOGRAPHICS_TRADING_CUSTOMER.TOTALDOLLARVALUETRADED",
+                "itemLabel": "TOTALDOLLARVALUETRADED"
+              }
+            ],
+            "id": "model0000016ca9b2bf07_00000001"
+          }
+        ]
+      },
+      "visTypeLocked": true,
+      "slotmapping": {
+        "slots": [
+          {
+            "name": "values",
+            "dataItems": [
+              "model0000016ca9b71f42_00000000"
+            ],
+            "caption": "Length",
+            "id": "values"
+          },
+          {
+            "name": "categories",
+            "dataItems": [
+              "model0000016ca9b2bf07_00000000"
+            ],
+            "dataItemSettings": [],
+            "caption": "Bars",
+            "id": "categories"
+          }
+        ]
+      },
+      "type": "live",
+      "name": {
+        "translationTable": {}
+      },
+      "visId": "com.ibm.vis.rave2bundlecolumn"
+    },
+    "model0000016ca9b7b17e_00000003": {
+      "id": "model0000016ca9b7b17e_00000003",
+      "data": {
+        "dataViews": [
+          {
+            "modelRef": "model0000016ca9799996_00000002",
+            "dataItems": [
+              {
+                "id": "model0000016ca9b7b17e_00000000",
+                "itemId": "MERGED_DEMOGRAPHICS_TRADING_CUSTOMER.TOTALUNITSTRADED",
+                "itemLabel": "TOTALUNITSTRADED"
+              }
+            ],
+            "id": "model0000016ca9b7b17e_00000001"
+          }
+        ]
+      },
+      "slotmapping": {
+        "slots": [
+          {
+            "name": "values",
+            "dataItems": [
+              "model0000016ca9b7b17e_00000000"
+            ],
+            "dataItemSettings": [],
+            "caption": "Value",
+            "id": "values",
+            "layerId": "data"
+          }
+        ]
+      },
+      "type": "live",
+      "name": {
+        "translationTable": {}
+      },
+      "visId": "summary"
+    },
+    "model0000016ca9b9aa83_00000000": {
+      "id": "model0000016ca9b9aa83_00000000",
+      "data": {
+        "dataViews": [
+          {
+            "modelRef": "model0000016ca9799996_00000002",
+            "dataItems": [
+              {
+                "id": "model0000016ca9b9d43e_00000001",
+                "itemId": "MERGED_DEMOGRAPHICS_TRADING_CUSTOMER.TOTALDOLLARVALUETRADED",
+                "itemLabel": "TOTALDOLLARVALUETRADED"
+              },
+              {
+                "id": "model0000016ca9b9e760_00000001",
+                "itemId": "MERGED_DEMOGRAPHICS_TRADING_CUSTOMER.DAYSSINCELASTTRADE",
+                "itemLabel": "DAYSSINCELASTTRADE"
+              }
+            ],
+            "id": "model0000016ca9b9d43e_00000000"
+          }
+        ]
+      },
+      "visTypeLocked": true,
+      "slotmapping": {
+        "slots": [
+          {
+            "name": "values",
+            "dataItems": [
+              "model0000016ca9b9d43e_00000001"
+            ],
+            "caption": "Length",
+            "id": "values"
+          },
+          {
+            "name": "categories",
+            "dataItems": [
+              "model0000016ca9b9e760_00000001"
+            ],
+            "dataItemSettings": [],
+            "caption": "Bars",
+            "id": "categories"
+          }
+        ]
+      },
+      "type": "live",
+      "visId": "com.ibm.vis.rave2bundlecolumn",
+      "name": {
+        "translationTable": {}
+      },
+      "localFilters": []
+    }
+  }
+}

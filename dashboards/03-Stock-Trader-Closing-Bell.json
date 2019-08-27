@@ -1,0 +1,805 @@
+{
+  "name": "New dashboard",
+  "layout": {
+    "id": "page0",
+    "items": [
+      {
+        "id": "page1",
+        "items": [
+          {
+            "id": "model000001664f2dc08f_00000005",
+            "style": {
+              "left": "15px",
+              "top": "75px",
+              "height": "420px",
+              "width": "530px"
+            },
+            "type": "widget"
+          },
+          {
+            "id": "model000001664f2fde8d_00000005",
+            "style": {
+              "left": "585px",
+              "top": "75px",
+              "height": "420px",
+              "width": "566px"
+            },
+            "type": "widget"
+          },
+          {
+            "id": "model000001664f310a39_00000002",
+            "style": {
+              "left": "85px",
+              "top": "506px",
+              "height": "420px",
+              "width": "500px"
+            },
+            "type": "widget"
+          },
+          {
+            "id": "model000001664f31e557_00000001",
+            "style": {
+              "left": "673px",
+              "top": "495px",
+              "height": "420px",
+              "width": "500px"
+            },
+            "type": "widget"
+          },
+          {
+            "id": "model000001664f334471_00000003",
+            "style": {
+              "left": "490px",
+              "top": "451px",
+              "height": "110px",
+              "width": "200px"
+            },
+            "type": "widget"
+          },
+          {
+            "id": "model000001664f357b7b_00000000",
+            "style": {
+              "width": "555px",
+              "height": "73px",
+              "left": "307.5px",
+              "top": "12px"
+            },
+            "type": "widget"
+          }
+        ],
+        "type": "absolute",
+        "title": {
+          "translationTable": {
+            "Default": "Monthly Metrics"
+          }
+        },
+        "templateName": "NoTemplate"
+      }
+    ],
+    "style": {
+      "height": "100%"
+    },
+    "type": "tab"
+  },
+  "theme": "defaultTheme",
+  "version": 1008,
+  "eventGroups": [
+    {
+      "id": "page1:1",
+      "widgetIds": [
+        "model000001664f2dc08f_00000005",
+        "model000001664f2fde8d_00000005",
+        "model000001664f310a39_00000002",
+        "model000001664f31e557_00000001",
+        "model000001664f334471_00000003"
+      ]
+    }
+  ],
+  "properties": {
+    "defaultLocale": "Default"
+  },
+  "dataSources": {
+    "version": "1.0",
+    "sources": [
+      {
+        "id": "model000001664f20f1dd_00000001",
+        "assetId": "assetId000001664f20f1dc_00000000",
+        "clientId": "TraderDataFinal",
+        "module": {
+          "identifier": "TraderDataFinal",
+          "label": "TraderDataFinal",
+          "source": {
+            "id": "TraderDataFinal",
+            "srcUrl": {
+              "property": [
+                {
+                  "name": "headers",
+                  "value": [
+                    {
+                      "name": "Authorization",
+                      "value": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImtydWJpbiIsInN1YiI6ImtydWJpbiIsImlzcyI6IktOT1hTU08iLCJhdWQiOiJEU1giLCJyb2xlIjoiQWRtaW4iLCJwZXJtaXNzaW9ucyI6WyJhZG1pbmlzdHJhdG9yIiwiYWNjZXNzX2NhdGFsb2ciLCJ2aXJ0dWFsaXplX3RyYW5zZm9ybSIsIm1hbmFnZV9jYXRhbG9nIiwibWFuYWdlX3BvbGljaWVzIiwiYWNjZXNzX3BvbGljaWVzIl0sInVpZCI6IjEwMTIiLCJkaXNwbGF5X25hbWUiOiJLZW50IFJ1YmluIiwiaWF0IjoxNTM4OTI1NTExLCJleHAiOjE1Mzg5Njg3MTF9.nASP2bIqlXtDq3qcrhePh4cBmSDodCrPu2VLnT5YXvJZWBKscCIUTMWznshicj5K8oUCsndpm-hX9442sfYN59WQK423NjoZDCdi5eicQUPcntNIEN6wPFbikZlh3-ZEMwt5a2zW6hHU5J6JPo7O5f_sLijk7LDLNNU-9lfJL81II5sEy0yOvWoiwaFuaRe65ojgwlXdnMN_I9jRk7XyWxMJSuw8iWLUzY6w9a9S0dP9hif3C1CuCRpapTIRiiQdrs0ymOEwhL_SWNJMyCc6t76bGxyxeeI3ykw0lxTITu6qkB_3Oai9A-4njlNHOu-Jxxe75sGCGaOvzQUH-BBnjQ"
+                    }
+                  ]
+                }
+              ],
+              "sourceUrl": "http://dsx-core-svc:3000/v3/project/TradingCustomerChurn/asset/TraderDataFinal.csv/download"
+            }
+          },
+          "table": {
+            "column": [
+              {
+                "datatype": "CHAR",
+                "description": "Date",
+                "label": "Date",
+                "name": "Date",
+                "nullable": "true",
+                "regularAggregate": "none",
+                "usage": "attribute"
+              },
+              {
+                "datatype": "FLOAT",
+                "description": "Quarter",
+                "label": "Quarter",
+                "name": "Quarter",
+                "nullable": "true",
+                "regularAggregate": "none",
+                "usage": "fact"
+              },
+              {
+                "datatype": "CHAR",
+                "description": "Month",
+                "label": "Month",
+                "name": "Month",
+                "nullable": "true",
+                "regularAggregate": "none",
+                "usage": "attribute"
+              },
+              {
+                "datatype": "FLOAT",
+                "description": "MonthNum",
+                "label": "MonthNum",
+                "name": "MonthNum",
+                "nullable": "true",
+                "regularAggregate": "none",
+                "usage": "fact"
+              },
+              {
+                "datatype": "FLOAT",
+                "description": "SharesSold",
+                "label": "SharesSold",
+                "name": "SharesSold",
+                "nullable": "true",
+                "regularAggregate": "none",
+                "usage": "fact"
+              },
+              {
+                "datatype": "FLOAT",
+                "description": "DailyTraders",
+                "label": "DailyTraders",
+                "name": "DailyTraders",
+                "nullable": "true",
+                "regularAggregate": "none",
+                "usage": "fact"
+              },
+              {
+                "datatype": "CHAR",
+                "description": "Before",
+                "label": "Before",
+                "name": "Before",
+                "nullable": "true",
+                "regularAggregate": "none",
+                "usage": "attribute"
+              }
+            ],
+            "name": "TraderDataFinal"
+          },
+          "xsd": "https://ibm.com/daas/module/1.0/module.xsd"
+        },
+        "name": "TraderDataFinal",
+        "shaping": {
+          "shapingId": "shaping000001664f2870c6_00000000",
+          "embeddedModuleUpToDate": false,
+          "moserJSON": {
+            "version": "5.0",
+            "container": "C",
+            "useSpec": [
+              {
+                "identifier": "ES",
+                "type": "url",
+                "storeID": "baseModule",
+                "imports": "*"
+              }
+            ],
+            "expressionLocale": "en-us",
+            "querySubject": [
+              {
+                "ref": [
+                  "ES.TraderDataFinal"
+                ],
+                "instanceType": "reference",
+                "item": [
+                  {
+                    "queryItem": {
+                      "usage": "attribute",
+                      "identifier": "Quarter",
+                      "property": [
+                        {
+                          "name": "propertySetByUser_165",
+                          "value": "true"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "queryItem": {
+                      "facetDefinition": {
+                        "enabled": "true",
+                        "sortList": {
+                          "sortItem": [
+                            {
+                              "ref": "MonthNum",
+                              "order": "ascending",
+                              "nullPlacement": "last"
+                            }
+                          ]
+                        }
+                      },
+                      "identifier": "Month_",
+                      "property": [
+                        {
+                          "name": "propertySetByUser_15",
+                          "value": "true"
+                        },
+                        {
+                          "name": "propertySetByUser_25",
+                          "value": "true"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "queryItem": {
+                      "usage": "attribute",
+                      "facetDefinition": {
+                        "enabled": "false",
+                        "sortList": {
+                          "sortItem": [
+                            {
+                              "ref": "MonthNum",
+                              "order": "ascending",
+                              "nullPlacement": "last"
+                            }
+                          ]
+                        }
+                      },
+                      "identifier": "MonthNum",
+                      "property": [
+                        {
+                          "name": "propertySetByUser_165",
+                          "value": "true"
+                        },
+                        {
+                          "name": "propertySetByUser_15",
+                          "value": "true"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "queryItem": {
+                      "regularAggregate": "total",
+                      "identifier": "SharesSold",
+                      "property": [
+                        {
+                          "name": "propertySetByUser_170",
+                          "value": "true"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "queryItem": {
+                      "regularAggregate": "total",
+                      "identifier": "DailyTraders",
+                      "property": [
+                        {
+                          "name": "propertySetByUser_170",
+                          "value": "true"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "identifier": "TraderDataFinal"
+              }
+            ],
+            "dataRetrievalMode": "liveConnection",
+            "identifier": "newModel",
+            "label": "newModel"
+          }
+        }
+      },
+      {
+        "id": "model000001664f22540a_00000001",
+        "assetId": "assetId000001664f225409_00000000",
+        "clientId": "CustomerOfferAccepted",
+        "module": {
+          "identifier": "CUSTOMER_OFFER_ACCEPTED",
+          "label": "CUSTOMER_OFFER_ACCEPTED",
+          "source": {
+            "id": "CUSTOMER_OFFER_ACCEPTED",
+            "jdbc": {
+              "connectionProperties": "",
+              "driverClassName": "com.ibm.db2.jcc.DB2Driver",
+              "jdbcUrl": "jdbc:db2://db2whsmp-1538416690.zen.svc.cluster.local:50000/BLUDB",
+              "schema": "DB2INST1"
+            },
+            "password": "password",
+            "user": "db2psc"
+          },
+          "table": {
+            "column": [
+              {
+                "datatype": "FLOAT",
+                "description": "ID",
+                "label": "ID",
+                "name": "ID",
+                "nullable": "true",
+                "regularAggregate": "none",
+                "usage": "fact"
+              },
+              {
+                "datatype": "CHAR",
+                "description": "GENDER",
+                "label": "GENDER",
+                "name": "GENDER",
+                "nullable": "true",
+                "regularAggregate": "none",
+                "usage": "attribute"
+              },
+              {
+                "datatype": "CHAR",
+                "description": "STATUS",
+                "label": "STATUS",
+                "name": "STATUS",
+                "nullable": "true",
+                "regularAggregate": "none",
+                "usage": "attribute"
+              },
+              {
+                "datatype": "FLOAT",
+                "description": "TOTALDOLLARVALUETRADED",
+                "label": "TOTALDOLLARVALUETRADED",
+                "name": "TOTALDOLLARVALUETRADED",
+                "nullable": "true",
+                "regularAggregate": "none",
+                "usage": "fact"
+              },
+              {
+                "datatype": "FLOAT",
+                "description": "TOTALUNITSTRADED",
+                "label": "TOTALUNITSTRADED",
+                "name": "TOTALUNITSTRADED",
+                "nullable": "true",
+                "regularAggregate": "none",
+                "usage": "fact"
+              },
+              {
+                "datatype": "CHAR",
+                "description": "OFFER_ACCEPTED",
+                "label": "OFFER_ACCEPTED",
+                "name": "OFFER_ACCEPTED",
+                "nullable": "true",
+                "regularAggregate": "none",
+                "usage": "attribute"
+              },
+              {
+                "datatype": "FLOAT",
+                "description": "OFFER_COST",
+                "label": "OFFER_COST",
+                "name": "OFFER_COST",
+                "nullable": "true",
+                "regularAggregate": "none",
+                "usage": "fact"
+              }
+            ],
+            "name": "CUSTOMER_OFFER_ACCEPTED"
+          },
+          "xsd": "https://ibm.com/daas/module/1.0/module.xsd"
+        },
+        "name": "CustomerOfferAccepted",
+        "shaping": {
+          "shapingId": "shaping000001664f2b58bb_00000000",
+          "embeddedModuleUpToDate": false,
+          "moserJSON": {
+            "version": "5.0",
+            "container": "C",
+            "useSpec": [
+              {
+                "identifier": "ES",
+                "type": "url",
+                "storeID": "baseModule",
+                "imports": "*"
+              }
+            ],
+            "expressionLocale": "en-us",
+            "querySubject": [
+              {
+                "ref": [
+                  "ES.CUSTOMER_OFFER_ACCEPTED"
+                ],
+                "instanceType": "reference",
+                "item": [
+                  {
+                    "queryItem": {
+                      "usage": "identifier",
+                      "regularAggregate": "count",
+                      "identifier": "ID",
+                      "property": [
+                        {
+                          "name": "propertySetByUser_165",
+                          "value": "true"
+                        },
+                        {
+                          "name": "propertySetByUser_170",
+                          "value": "true"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "queryItem": {
+                      "regularAggregate": "total",
+                      "identifier": "TOTALDOLLARVALUETRADED",
+                      "property": [
+                        {
+                          "name": "propertySetByUser_170",
+                          "value": "true"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "queryItem": {
+                      "regularAggregate": "total",
+                      "identifier": "TOTALUNITSTRADED",
+                      "property": [
+                        {
+                          "name": "propertySetByUser_170",
+                          "value": "true"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "queryItem": {
+                      "regularAggregate": "total",
+                      "identifier": "OFFER_COST",
+                      "property": [
+                        {
+                          "name": "propertySetByUser_170",
+                          "value": "true"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "identifier": "CUSTOMER_OFFER_ACCEPTED"
+              }
+            ],
+            "dataRetrievalMode": "liveConnection",
+            "identifier": "newModel",
+            "label": "newModel"
+          }
+        }
+      }
+    ]
+  },
+  "pageContext": [],
+  "drillThrough": [],
+  "widgets": {
+    "model000001664f2dc08f_00000005": {
+      "id": "model000001664f2dc08f_00000005",
+      "data": {
+        "dataViews": [
+          {
+            "modelRef": "model000001664f20f1dd_00000001",
+            "dataItems": [
+              {
+                "id": "model000001664f2dc08f_00000000",
+                "itemId": "TraderDataFinal.Month_",
+                "itemLabel": "Month"
+              },
+              {
+                "id": "model000001664f2dc08f_00000001",
+                "itemId": "TraderDataFinal.SharesSold",
+                "itemLabel": "SharesSold"
+              },
+              {
+                "id": "model000001664f2dc08f_00000002",
+                "itemId": "TraderDataFinal.Before_",
+                "itemLabel": "Before"
+              }
+            ],
+            "id": "model000001664f2dc08f_00000003"
+          }
+        ]
+      },
+      "slotmapping": {
+        "slots": [
+          {
+            "name": "categories",
+            "dataItems": [
+              "model000001664f2dc08f_00000000"
+            ],
+            "caption": "x-axis",
+            "id": "categories",
+            "layerId": "data"
+          },
+          {
+            "name": "series",
+            "dataItems": [
+              "model000001664f2dc08f_00000002"
+            ],
+            "caption": "Color",
+            "id": "series",
+            "layerId": "data"
+          },
+          {
+            "name": "values",
+            "dataItems": [
+              "model000001664f2dc08f_00000001"
+            ],
+            "caption": "y-axis",
+            "id": "values",
+            "layerId": "data"
+          }
+        ]
+      },
+      "type": "live",
+      "name": {
+        "translationTable": {
+          "Default": "Shares Sold per Month"
+        }
+      },
+      "visId": "com.ibm.vis.rave2line",
+      "showTitle": true,
+      "properties": [
+        {
+          "id": "widget.legend.display",
+          "value": false
+        }
+      ]
+    },
+    "model000001664f2fde8d_00000005": {
+      "id": "model000001664f2fde8d_00000005",
+      "data": {
+        "dataViews": [
+          {
+            "modelRef": "model000001664f20f1dd_00000001",
+            "dataItems": [
+              {
+                "id": "model000001664f2fde8d_00000000",
+                "itemId": "TraderDataFinal.Month_",
+                "itemLabel": "Month"
+              },
+              {
+                "id": "model000001664f2fde8d_00000001",
+                "itemId": "TraderDataFinal.DailyTraders",
+                "itemLabel": "DailyTraders"
+              },
+              {
+                "id": "model000001664f2fde8d_00000002",
+                "itemId": "TraderDataFinal.Before_",
+                "itemLabel": "Before"
+              }
+            ],
+            "id": "model000001664f2fde8d_00000003"
+          }
+        ]
+      },
+      "slotmapping": {
+        "slots": [
+          {
+            "name": "categories",
+            "dataItems": [
+              "model000001664f2fde8d_00000000"
+            ],
+            "caption": "x-axis",
+            "id": "categories",
+            "layerId": "data"
+          },
+          {
+            "name": "series",
+            "dataItems": [
+              "model000001664f2fde8d_00000002"
+            ],
+            "caption": "Color",
+            "id": "series",
+            "layerId": "data"
+          },
+          {
+            "name": "values",
+            "dataItems": [
+              "model000001664f2fde8d_00000001"
+            ],
+            "caption": "y-axis",
+            "id": "values",
+            "layerId": "data"
+          }
+        ]
+      },
+      "type": "live",
+      "name": {
+        "translationTable": {
+          "Default": "Number of Traders per Month"
+        }
+      },
+      "visId": "com.ibm.vis.rave2line",
+      "showTitle": true,
+      "properties": [
+        {
+          "id": "widget.legend.display",
+          "value": false
+        }
+      ]
+    },
+    "model000001664f310a39_00000002": {
+      "id": "model000001664f310a39_00000002",
+      "data": {
+        "dataViews": [
+          {
+            "modelRef": "model000001664f22540a_00000001",
+            "dataItems": [
+              {
+                "id": "model000001664f310a38_00000000",
+                "itemId": "CUSTOMER_OFFER_ACCEPTED.ID",
+                "itemLabel": "ID"
+              },
+              {
+                "id": "model000001664f310a38_00000001",
+                "itemId": "CUSTOMER_OFFER_ACCEPTED.OFFER_ACCEPTED",
+                "itemLabel": "Offer_Accepted"
+              }
+            ],
+            "id": "model000001664f310a39_00000000"
+          }
+        ]
+      },
+      "visTypeLocked": true,
+      "slotmapping": {
+        "slots": [
+          {
+            "name": "categories",
+            "dataItems": [
+              "model000001664f310a38_00000001"
+            ],
+            "dataItemSettings": [],
+            "caption": "Bars",
+            "id": "categories",
+            "layerId": "data"
+          },
+          {
+            "name": "values",
+            "dataItems": [
+              "model000001664f310a38_00000000"
+            ],
+            "caption": "Length",
+            "id": "values",
+            "layerId": "data"
+          }
+        ]
+      },
+      "type": "live",
+      "name": {
+        "translationTable": {
+          "Default": "Total Offers Accepted"
+        }
+      },
+      "visId": "com.ibm.vis.rave2bundlecolumn",
+      "showTitle": true
+    },
+    "model000001664f31e557_00000001": {
+      "id": "model000001664f31e557_00000001",
+      "data": {
+        "dataViews": [
+          {
+            "modelRef": "model000001664f22540a_00000001",
+            "dataItems": [
+              {
+                "id": "model000001664f31e556_00000000",
+                "itemId": "CUSTOMER_OFFER_ACCEPTED.OFFER_ACCEPTED",
+                "itemLabel": "Offer_Accepted"
+              },
+              {
+                "id": "model000001664f31e556_00000001",
+                "itemId": "CUSTOMER_OFFER_ACCEPTED.OFFER_COST",
+                "itemLabel": "Offer_Cost"
+              }
+            ],
+            "id": "model000001664f31e556_00000002"
+          }
+        ]
+      },
+      "slotmapping": {
+        "slots": [
+          {
+            "name": "categories",
+            "dataItems": [
+              "model000001664f31e556_00000000"
+            ],
+            "caption": "Bars",
+            "id": "categories",
+            "layerId": "data"
+          },
+          {
+            "name": "values",
+            "dataItems": [
+              "model000001664f31e556_00000001"
+            ],
+            "caption": "Length",
+            "id": "values",
+            "layerId": "data"
+          }
+        ]
+      },
+      "type": "live",
+      "name": {
+        "translationTable": {
+          "Default": "Total Offer Cost"
+        }
+      },
+      "visId": "com.ibm.vis.rave2bundlecolumn",
+      "showTitle": true
+    },
+    "model000001664f334471_00000003": {
+      "id": "model000001664f334471_00000003",
+      "data": {
+        "dataViews": [
+          {
+            "modelRef": "model000001664f22540a_00000001",
+            "dataItems": [
+              {
+                "id": "model000001664f334471_00000000",
+                "itemId": "CUSTOMER_OFFER_ACCEPTED.OFFER_COST",
+                "itemLabel": "Offer_Cost"
+              }
+            ],
+            "id": "model000001664f334471_00000001"
+          }
+        ]
+      },
+      "slotmapping": {
+        "slots": [
+          {
+            "name": "values",
+            "dataItems": [
+              "model000001664f334471_00000000"
+            ],
+            "dataItemSettings": [],
+            "caption": "Value",
+            "id": "values",
+            "layerId": "data"
+          }
+        ]
+      },
+      "type": "live",
+      "name": {
+        "translationTable": {}
+      },
+      "visId": "summary"
+    },
+    "model000001664f357b7b_00000000": {
+      "id": "model000001664f357b7b_00000000",
+      "type": "text",
+      "content": {
+        "translationTable": {
+          "Default": "<div class=\"staticContent textFillNoScroll\" dir=\"auto\"><div class=\"summernote\" style=\"display: none;\"></div><div class=\"note-editor\"><div class=\"note-dropzone\">  <div class=\"note-dropzone-message\"></div></div><div class=\"note-editing-area\"><div class=\"note-handle\"><div class=\"note-control-selection\" style=\"display: none;\"><div class=\"note-control-selection-bg\"></div><div class=\"note-control-holder note-control-nw\"></div><div class=\"note-control-holder note-control-ne\"></div><div class=\"note-control-holder note-control-sw\"></div><div class=\"note-control-sizing note-control-se\"></div><div class=\"note-control-selection-info\"></div></div></div><div tabindex=\"-1\" style=\"position: absolute; left: -100000px; opacity: 0;\" contenteditable=\"true\"></div><div class=\"note-editable\" contenteditable=\"false\"><p class=\"responsiveColor responsiveFontSize responsiveFontFamily\" style=\"font-size: 41px;\">Stock Trades - Closing Bell<br></p></div></div></div></div>"
+        }
+      },
+      "isResponsive": true,
+      "visTypeLocked": true,
+      "name": ""
+    }
+  }
+}

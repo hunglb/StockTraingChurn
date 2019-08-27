@@ -1,0 +1,101 @@
+{
+    "algorithm": "PipelineModel",
+    "algorithmType": "Classification",
+    "author": "1042",
+    "createdAt": 1566217354052,
+    "features": [
+        {
+            "name": "ID",
+            "sample": 4,
+            "type": "int"
+        },
+        {
+            "name": "GENDER",
+            "sample": "F",
+            "type": "str"
+        },
+        {
+            "name": "STATUS",
+            "sample": "M",
+            "type": "str"
+        },
+        {
+            "name": "CHILDREN",
+            "sample": 2,
+            "type": "int"
+        },
+        {
+            "name": "ESTINCOME",
+            "sample": 52004,
+            "type": "int"
+        },
+        {
+            "name": "HOMEOWNER",
+            "sample": "N",
+            "type": "str"
+        },
+        {
+            "name": "AGE",
+            "sample": 25,
+            "type": "int"
+        },
+        {
+            "name": "TOTALDOLLARVALUETRADED",
+            "sample": 5030,
+            "type": "int"
+        },
+        {
+            "name": "TOTALUNITSTRADED",
+            "sample": 23,
+            "type": "int"
+        },
+        {
+            "name": "LARGESTSINGLETRANSACTION",
+            "sample": 1257,
+            "type": "int"
+        },
+        {
+            "name": "SMALLESTSINGLETRANSACTION",
+            "sample": 125,
+            "type": "int"
+        },
+        {
+            "name": "PERCENTCHANGECALCULATION",
+            "sample": 3,
+            "type": "int"
+        },
+        {
+            "name": "DAYSSINCELASTLOGIN",
+            "sample": 2,
+            "type": "int"
+        },
+        {
+            "name": "DAYSSINCELASTTRADE",
+            "sample": 19,
+            "type": "int"
+        },
+        {
+            "name": "NETREALIZEDGAINS_YTD",
+            "sample": 0,
+            "type": "int"
+        }
+    ],
+    "id": 1566217354052,
+    "isPublished": false,
+    "labelColumns": [
+        {
+            "name": "CHURNRISK",
+            "type": "str"
+        }
+    ],
+    "latestModelVersion": 1,
+    "learningType": "Supervised",
+    "name": "TradingChurnRiskClassificationSparkML",
+    "params": {},
+    "publishedBy": "",
+    "publishedModelVersion": -1,
+    "runtime": "Python35",
+    "serialization": "spark",
+    "source": "",
+    "type": "spark-2.2"
+}

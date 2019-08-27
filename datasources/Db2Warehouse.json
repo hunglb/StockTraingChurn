@@ -1,0 +1,1 @@
+{"dsx_artifact_type":"datasource","name":"Db2Warehouse","description":"","type":"DB2","URL":"jdbc:db2://dashdb-entry-yp-syd01-01.services.au-syd.bluemix.net:50000/BLUDB"}

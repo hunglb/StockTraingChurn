@@ -1,0 +1,797 @@
+{
+  "name": "New dashboard",
+  "layout": {
+    "id": "page0",
+    "items": [
+      {
+        "id": "page1",
+        "items": [
+          {
+            "id": "page2",
+            "css": "templateBox aspectRatio_default",
+            "items": [
+              {
+                "id": "page3",
+                "style": {
+                  "top": "0%",
+                  "left": "0%",
+                  "right": "0%",
+                  "bottom": "0%"
+                },
+                "type": "templateDropZone",
+                "relatedLayouts": "|model00000166111e4acd_00000000|"
+              },
+              {
+                "id": "model00000166111e4acd_00000000",
+                "style": {
+                  "width": "99.76931949250289%",
+                  "height": "99.58071278825996%",
+                  "top": "0.20964360587002095%",
+                  "left": "0.11534025374855825%"
+                },
+                "type": "widget",
+                "relatedLayouts": "page3"
+              },
+              {
+                "id": "model0000016581c97d26_00000000",
+                "style": {
+                  "width": "99.71883786316776%",
+                  "height": "116.52470187393527%",
+                  "top": "0.17035775127768313%",
+                  "left": "0.09372071227741331%",
+                  "opacity": 0.17
+                },
+                "type": "widget",
+                "relatedLayouts": ""
+              },
+              {
+                "id": "model0000016581c8501e_00000003",
+                "style": {
+                  "left": "0.13054830287206268%",
+                  "top": "0.2375296912114014%",
+                  "height": "26.128266033254157%",
+                  "width": "26.109660574412533%"
+                },
+                "type": "widget",
+                "relatedLayouts": ""
+              },
+              {
+                "id": "model0000016581c8798a_00000003",
+                "style": {
+                  "left": "73.7597911227154%",
+                  "top": "0.2375296912114014%",
+                  "height": "26.128266033254157%",
+                  "width": "26.109660574412533%"
+                },
+                "type": "widget",
+                "relatedLayouts": ""
+              },
+              {
+                "id": "model0000016581c8a792_00000000",
+                "style": {
+                  "width": "36.560509554140125%",
+                  "height": "11.805555555555555%",
+                  "left": "33.503184713375795%",
+                  "top": "7.407407407407407%"
+                },
+                "type": "widget",
+                "relatedLayouts": ""
+              },
+              {
+                "id": "model0000016581ca10e4_00000000",
+                "style": {
+                  "left": "0.09372071227741331%",
+                  "top": "38.841567291311755%",
+                  "height": "71.55025553662692%",
+                  "width": "50.98406747891284%"
+                },
+                "type": "widget",
+                "relatedLayouts": ""
+              },
+              {
+                "id": "model0000016581cad50c_00000000",
+                "style": {
+                  "left": "53.88940955951265%",
+                  "top": "38.841567291311755%",
+                  "height": "71.55025553662692%",
+                  "width": "45.92314901593252%"
+                },
+                "type": "widget",
+                "relatedLayouts": ""
+              }
+            ],
+            "type": "scalingAbsolute"
+          }
+        ],
+        "type": "container",
+        "title": {
+          "translationTable": {
+            "Default": "Monthly Metrics"
+          }
+        },
+        "templateName": "Template1"
+      }
+    ],
+    "style": {
+      "height": "100%"
+    },
+    "type": "tab"
+  },
+  "theme": "defaultTheme",
+  "version": 1009,
+  "eventGroups": [
+    {
+      "id": "page1:1",
+      "widgetIds": [
+        "model0000016581c8501e_00000003",
+        "model0000016581c8798a_00000003",
+        "model0000016581ca10e4_00000000",
+        "model0000016581cad50c_00000000"
+      ]
+    }
+  ],
+  "properties": {
+    "defaultLocale": "Default"
+  },
+  "dataSources": {
+    "version": "1.0",
+    "sources": [
+      {
+        "id": "model0000016581c7ba9e_00000001",
+        "assetId": "assetId0000016581c7ba9c_00000000",
+        "clientId": "TraderData",
+        "module": {
+          "identifier": "TraderData",
+          "label": "TraderData",
+          "source": {
+            "id": "TraderData",
+            "srcUrl": {
+              "property": [
+                {
+                  "name": "headers",
+                  "value": [
+                    {
+                      "name": "Authorization",
+                      "value": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Imh1bmdsYiIsInN1YiI6Imh1bmdsYiIsImlzcyI6IktOT1hTU08iLCJhdWQiOiJEU1giLCJyb2xlIjoiQWRtaW4iLCJwZXJtaXNzaW9ucyI6WyJhY2Nlc3NfY2F0YWxvZyIsInZpcnR1YWxpemVfdHJhbnNmb3JtIiwiY2FuX3Byb3Zpc2lvbiIsIm1hbmFnZV9jYXRhbG9nIiwibWFuYWdlX3BvbGljaWVzIiwiYWNjZXNzX3BvbGljaWVzIiwiZGVwbG95bWVudF9hZG1pbiIsImFkbWluaXN0cmF0b3IiXSwidWlkIjoiMTA0MiIsImF1dGhlbnRpY2F0b3IiOiJkZWZhdWx0IiwiZGlzcGxheV9uYW1lIjoiSHVuZyBMZSIsImlhdCI6MTU2NjE3OTEzMiwiZXhwIjoxNTY2MjIyMzMyfQ.X1ARhuB2o4BRwKJpprG9lNBp3-2zr4EOCEfTkwlLp28odAJ-NQn92Ty9vbPatY8LXX-RbH-Th-_nN6F2rq5uj0E9CiW5LLVKtX67asEzyNYjMDE2wbQvKF-LHnA85dGZJy7p0kKUsfpDh-E3d3sqyT3mRFykC8Txj9H7NvNrVxX2xfueY-Dj_SsGqc9XAqGhtGDhjf-Qlx_54di-M0goljzatSS_zNmjjKmYPyxuCkm5sAvylG1F68Um8LS8pzWJjC4_Wdyfl9OjRfO7WYDH6KfEiooZu94QO8p9GzGa_PDvuWYdxGWd1CCu-Um9zFfk9_HJmJTgZWZeK_ohtpBegA"
+                    }
+                  ]
+                }
+              ],
+              "sourceUrl": "http://dsx-core-svc:3000/v3/project/TradingCustomerChurn/asset/TraderData.csv/download"
+            }
+          },
+          "table": {
+            "column": [
+              {
+                "datatype": "CHAR",
+                "description": "Date",
+                "label": "Date",
+                "name": "Date",
+                "nullable": "true",
+                "regularAggregate": "none",
+                "usage": "attribute"
+              },
+              {
+                "datatype": "FLOAT",
+                "description": "Quarter",
+                "label": "Quarter",
+                "name": "Quarter",
+                "nullable": "true",
+                "regularAggregate": "none",
+                "usage": "attribute"
+              },
+              {
+                "datatype": "CHAR",
+                "description": "Month",
+                "label": "Month",
+                "name": "Month",
+                "nullable": "true",
+                "regularAggregate": "none",
+                "usage": "attribute"
+              },
+              {
+                "datatype": "FLOAT",
+                "description": "MonthNum",
+                "label": "MonthNum",
+                "name": "MonthNum",
+                "nullable": "true",
+                "regularAggregate": "none",
+                "usage": "attribute"
+              },
+              {
+                "datatype": "FLOAT",
+                "description": "SharesSold",
+                "label": "SharesSold",
+                "name": "SharesSold",
+                "nullable": "true",
+                "regularAggregate": "none",
+                "usage": "attribute"
+              },
+              {
+                "datatype": "FLOAT",
+                "description": "DailyTraders",
+                "label": "DailyTraders",
+                "name": "DailyTraders",
+                "nullable": "true",
+                "regularAggregate": "none",
+                "usage": "attribute"
+              }
+            ],
+            "name": "TraderData"
+          },
+          "xsd": "https://ibm.com/daas/module/1.0/module.xsd"
+        },
+        "name": "TraderData",
+        "shaping": {
+          "shapingId": "shaping0000016581c83238_00000000",
+          "embeddedModuleUpToDate": false,
+          "moserJSON": {
+            "version": "5.0",
+            "container": "C",
+            "useSpec": [
+              {
+                "identifier": "ES",
+                "type": "url",
+                "storeID": "baseModule",
+                "imports": "*"
+              }
+            ],
+            "expressionLocale": "en-us",
+            "querySubject": [
+              {
+                "ref": [
+                  "ES.TraderData"
+                ],
+                "instanceType": "reference",
+                "item": [
+                  {
+                    "queryItem": {
+                      "facetDefinition": {
+                        "enabled": "true",
+                        "sortList": {
+                          "sortItem": [
+                            {
+                              "ref": "MonthNum",
+                              "order": "ascending",
+                              "nullPlacement": "last"
+                            }
+                          ]
+                        }
+                      },
+                      "identifier": "Month_",
+                      "property": [
+                        {
+                          "name": "propertySetByUser_15",
+                          "value": "true"
+                        },
+                        {
+                          "name": "propertySetByUser_25",
+                          "value": "true"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "queryItem": {
+                      "usage": "fact",
+                      "regularAggregate": "total",
+                      "identifier": "SharesSold",
+                      "property": [
+                        {
+                          "name": "propertySetByUser_165",
+                          "value": "true"
+                        },
+                        {
+                          "name": "propertySetByUser_170",
+                          "value": "true"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "queryItem": {
+                      "usage": "fact",
+                      "regularAggregate": "total",
+                      "facetDefinition": {
+                        "enabled": "false",
+                        "sortList": {
+                          "sortItem": [
+                            {
+                              "ref": "DailyTraders",
+                              "order": "ascending",
+                              "nullPlacement": "last"
+                            }
+                          ]
+                        }
+                      },
+                      "identifier": "DailyTraders",
+                      "property": [
+                        {
+                          "name": "propertySetByUser_15",
+                          "value": "true"
+                        },
+                        {
+                          "name": "propertySetByUser_165",
+                          "value": "true"
+                        },
+                        {
+                          "name": "propertySetByUser_170",
+                          "value": "true"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "identifier": "TraderData"
+              }
+            ],
+            "dataRetrievalMode": "liveConnection",
+            "identifier": "newModel",
+            "label": "newModel"
+          }
+        }
+      },
+      {
+        "id": "model00000166313eda3a_00000002",
+        "assetId": "assetId00000166313eda3a_00000000",
+        "clientId": "TraderDataFinal",
+        "module": {
+          "identifier": "TraderDataFinal",
+          "label": "TraderDataFinal",
+          "source": {
+            "id": "TraderDataFinal",
+            "srcUrl": {
+              "property": [
+                {
+                  "name": "headers",
+                  "value": [
+                    {
+                      "name": "Authorization",
+                      "value": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Imh1bmdsYiIsInN1YiI6Imh1bmdsYiIsImlzcyI6IktOT1hTU08iLCJhdWQiOiJEU1giLCJyb2xlIjoiQWRtaW4iLCJwZXJtaXNzaW9ucyI6WyJhY2Nlc3NfY2F0YWxvZyIsInZpcnR1YWxpemVfdHJhbnNmb3JtIiwiY2FuX3Byb3Zpc2lvbiIsIm1hbmFnZV9jYXRhbG9nIiwibWFuYWdlX3BvbGljaWVzIiwiYWNjZXNzX3BvbGljaWVzIiwiZGVwbG95bWVudF9hZG1pbiIsImFkbWluaXN0cmF0b3IiXSwidWlkIjoiMTA0MiIsImF1dGhlbnRpY2F0b3IiOiJkZWZhdWx0IiwiZGlzcGxheV9uYW1lIjoiSHVuZyBMZSIsImlhdCI6MTU2NjE3OTEzMiwiZXhwIjoxNTY2MjIyMzMyfQ.X1ARhuB2o4BRwKJpprG9lNBp3-2zr4EOCEfTkwlLp28odAJ-NQn92Ty9vbPatY8LXX-RbH-Th-_nN6F2rq5uj0E9CiW5LLVKtX67asEzyNYjMDE2wbQvKF-LHnA85dGZJy7p0kKUsfpDh-E3d3sqyT3mRFykC8Txj9H7NvNrVxX2xfueY-Dj_SsGqc9XAqGhtGDhjf-Qlx_54di-M0goljzatSS_zNmjjKmYPyxuCkm5sAvylG1F68Um8LS8pzWJjC4_Wdyfl9OjRfO7WYDH6KfEiooZu94QO8p9GzGa_PDvuWYdxGWd1CCu-Um9zFfk9_HJmJTgZWZeK_ohtpBegA"
+                    }
+                  ]
+                }
+              ],
+              "sourceUrl": "http://dsx-core-svc:3000/v3/project/TradingCustomerChurn/asset/TraderDataFinal.csv/download"
+            }
+          },
+          "table": {
+            "column": [
+              {
+                "datatype": "CHAR",
+                "description": "Date",
+                "label": "Date",
+                "name": "Date",
+                "nullable": "true",
+                "regularAggregate": "none",
+                "usage": "attribute"
+              },
+              {
+                "datatype": "FLOAT",
+                "description": "Quarter",
+                "label": "Quarter",
+                "name": "Quarter",
+                "nullable": "true",
+                "regularAggregate": "none",
+                "usage": "fact"
+              },
+              {
+                "datatype": "CHAR",
+                "description": "Month",
+                "label": "Month",
+                "name": "Month",
+                "nullable": "true",
+                "regularAggregate": "none",
+                "usage": "attribute"
+              },
+              {
+                "datatype": "FLOAT",
+                "description": "MonthNum",
+                "label": "MonthNum",
+                "name": "MonthNum",
+                "nullable": "true",
+                "regularAggregate": "none",
+                "usage": "fact"
+              },
+              {
+                "datatype": "FLOAT",
+                "description": "SharesSold",
+                "label": "SharesSold",
+                "name": "SharesSold",
+                "nullable": "true",
+                "regularAggregate": "none",
+                "usage": "fact"
+              },
+              {
+                "datatype": "FLOAT",
+                "description": "DailyTraders",
+                "label": "DailyTraders",
+                "name": "DailyTraders",
+                "nullable": "true",
+                "regularAggregate": "none",
+                "usage": "fact"
+              },
+              {
+                "datatype": "CHAR",
+                "description": "Before",
+                "label": "Before",
+                "name": "Before",
+                "nullable": "true",
+                "regularAggregate": "none",
+                "usage": "attribute"
+              }
+            ],
+            "name": "TraderDataFinal"
+          },
+          "xsd": "https://ibm.com/daas/module/1.0/module.xsd"
+        },
+        "name": "TraderDataFinal",
+        "shaping": {
+          "shapingId": "shaping00000166314280c7_00000000",
+          "embeddedModuleUpToDate": false,
+          "moserJSON": {
+            "version": "5.0",
+            "container": "C",
+            "useSpec": [
+              {
+                "identifier": "ES",
+                "type": "url",
+                "storeID": "baseModule",
+                "imports": "*"
+              }
+            ],
+            "expressionLocale": "en-us",
+            "querySubject": [
+              {
+                "ref": [
+                  "ES.TraderDataFinal"
+                ],
+                "instanceType": "reference",
+                "item": [
+                  {
+                    "queryItem": {
+                      "facetDefinition": {
+                        "enabled": "true",
+                        "sortList": {
+                          "sortItem": [
+                            {
+                              "ref": "MonthNum",
+                              "order": "ascending",
+                              "nullPlacement": "last"
+                            }
+                          ]
+                        }
+                      },
+                      "identifier": "Month_",
+                      "property": [
+                        {
+                          "name": "propertySetByUser_15",
+                          "value": "true"
+                        },
+                        {
+                          "name": "propertySetByUser_25",
+                          "value": "true"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "queryItem": {
+                      "usage": "attribute",
+                      "facetDefinition": {
+                        "enabled": "false",
+                        "sortList": {
+                          "sortItem": [
+                            {
+                              "ref": "MonthNum",
+                              "order": "ascending",
+                              "nullPlacement": "last"
+                            }
+                          ]
+                        }
+                      },
+                      "identifier": "MonthNum",
+                      "property": [
+                        {
+                          "name": "propertySetByUser_165",
+                          "value": "true"
+                        },
+                        {
+                          "name": "propertySetByUser_15",
+                          "value": "true"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "queryItem": {
+                      "regularAggregate": "total",
+                      "identifier": "SharesSold",
+                      "property": [
+                        {
+                          "name": "propertySetByUser_170",
+                          "value": "true"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "queryItem": {
+                      "regularAggregate": "total",
+                      "identifier": "DailyTraders",
+                      "property": [
+                        {
+                          "name": "propertySetByUser_170",
+                          "value": "true"
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "identifier": "TraderDataFinal"
+              }
+            ],
+            "dataRetrievalMode": "liveConnection",
+            "identifier": "newModel",
+            "label": "newModel"
+          }
+        }
+      }
+    ]
+  },
+  "pageContext": [
+    {
+      "origin": "visualization",
+      "table": "",
+      "alias": "0",
+      "sourceId": "model0000016581c7ba9e_00000001",
+      "hierarchies": [
+        {
+          "hierarchyUniqueName": "TraderData.Month_"
+        }
+      ],
+      "scope": "page1",
+      "hierarchyUniqueNames": [
+        "TraderData.Month_"
+      ],
+      "eventSourceId": "model0000016581ca10e4_00000000",
+      "eventGroupId": "page1:1"
+    }
+  ],
+  "drillThrough": [],
+  "widgets": {
+    "model0000016581c8501e_00000003": {
+      "id": "model0000016581c8501e_00000003",
+      "data": {
+        "dataViews": [
+          {
+            "modelRef": "model0000016581c7ba9e_00000001",
+            "dataItems": [
+              {
+                "id": "model0000016581c8501e_00000000",
+                "itemId": "TraderData.DailyTraders",
+                "itemLabel": "DailyTraders"
+              }
+            ],
+            "id": "model0000016581c8501e_00000001"
+          }
+        ]
+      },
+      "slotmapping": {
+        "slots": [
+          {
+            "name": "values",
+            "dataItems": [
+              "model0000016581c8501e_00000000"
+            ],
+            "dataItemSettings": [],
+            "caption": "Value",
+            "id": "values",
+            "layerId": "data"
+          }
+        ]
+      },
+      "type": "live",
+      "name": {
+        "translationTable": {}
+      },
+      "visId": "summary"
+    },
+    "model0000016581c8798a_00000003": {
+      "id": "model0000016581c8798a_00000003",
+      "data": {
+        "dataViews": [
+          {
+            "modelRef": "model0000016581c7ba9e_00000001",
+            "dataItems": [
+              {
+                "id": "model0000016581c8798a_00000000",
+                "itemId": "TraderData.SharesSold",
+                "itemLabel": "SharesSold"
+              }
+            ],
+            "id": "model0000016581c8798a_00000001"
+          }
+        ]
+      },
+      "slotmapping": {
+        "slots": [
+          {
+            "name": "values",
+            "dataItems": [
+              "model0000016581c8798a_00000000"
+            ],
+            "dataItemSettings": [],
+            "caption": "Value",
+            "id": "values",
+            "layerId": "data"
+          }
+        ]
+      },
+      "type": "live",
+      "name": {
+        "translationTable": {}
+      },
+      "visId": "summary"
+    },
+    "model0000016581c8a792_00000000": {
+      "id": "model0000016581c8a792_00000000",
+      "type": "text",
+      "content": {
+        "translationTable": {
+          "Default": "<div class=\"staticContent\" dir=\"auto\"><div class=\"summernote\" style=\"display: none;\"></div><div class=\"note-editor\"><div class=\"note-dropzone\">  <div class=\"note-dropzone-message\"></div></div><div class=\"note-editing-area\"><div class=\"note-handle\"><div class=\"note-control-selection\"><div class=\"note-control-selection-bg\"></div><div class=\"note-control-holder note-control-nw\"></div><div class=\"note-control-holder note-control-ne\"></div><div class=\"note-control-holder note-control-sw\"></div><div class=\"note-control-sizing note-control-se\"></div><div class=\"note-control-selection-info\"></div></div></div><div class=\"note-editable\" contenteditable=\"false\"><p class=\"responsiveColor responsiveFontSize responsiveFontFamily\" style=\"text-align: center;\"><span class=\"rt_fontSize36\">Stock Trades</span><br></p></div></div></div></div>"
+        }
+      },
+      "isResponsive": false,
+      "visTypeLocked": true,
+      "name": ""
+    },
+    "model0000016581c97d26_00000000": {
+      "id": "model0000016581c97d26_00000000",
+      "type": "image",
+      "imageLink": "http://helm-local-repo-service.default.svc.cluster.local/img/new-york-stock-exchange.jpg",
+      "visTypeLocked": true,
+      "name": ""
+    },
+    "model0000016581ca10e4_00000000": {
+      "id": "model0000016581ca10e4_00000000",
+      "data": {
+        "dataViews": [
+          {
+            "modelRef": "model0000016581c7ba9e_00000001",
+            "dataItems": [
+              {
+                "id": "model0000016581ca8672_00000000",
+                "itemId": "TraderData.Month_",
+                "itemLabel": "Month"
+              },
+              {
+                "id": "model0000016581ca94e6_00000000",
+                "itemId": "TraderData.SharesSold",
+                "itemLabel": "SharesSold"
+              }
+            ],
+            "id": "model0000016581ca8670_00000000"
+          }
+        ]
+      },
+      "visTypeLocked": true,
+      "slotmapping": {
+        "slots": [
+          {
+            "name": "categories",
+            "dataItems": [
+              "model0000016581ca8672_00000000"
+            ],
+            "dataItemSettings": [],
+            "caption": "x-axis",
+            "id": "categories"
+          },
+          {
+            "name": "values",
+            "dataItems": [
+              "model0000016581ca94e6_00000000"
+            ],
+            "caption": "y-axis",
+            "id": "values"
+          }
+        ]
+      },
+      "type": "live",
+      "visId": "com.ibm.vis.rave2line",
+      "name": {
+        "translationTable": {
+          "Default": "Shares sold per month"
+        }
+      },
+      "showTitle": true,
+      "properties": [
+        {
+          "id": "titles.visible",
+          "value": true
+        },
+        {
+          "id": "valueAxis.labels.visible",
+          "value": false
+        },
+        {
+          "id": "valueLabels.visible",
+          "value": true
+        }
+      ],
+      "localFilters": []
+    },
+    "model0000016581cad50c_00000000": {
+      "id": "model0000016581cad50c_00000000",
+      "data": {
+        "dataViews": [
+          {
+            "modelRef": "model0000016581c7ba9e_00000001",
+            "dataItems": [
+              {
+                "id": "model0000016581cb040a_00000001",
+                "itemId": "TraderData.Month_",
+                "itemLabel": "Month"
+              },
+              {
+                "id": "model0000016581cb0c22_00000000",
+                "itemId": "TraderData.DailyTraders",
+                "itemLabel": "DailyTraders"
+              }
+            ],
+            "id": "model0000016581cb040a_00000000"
+          }
+        ]
+      },
+      "visTypeLocked": true,
+      "slotmapping": {
+        "slots": [
+          {
+            "name": "categories",
+            "dataItems": [
+              "model0000016581cb040a_00000001"
+            ],
+            "dataItemSettings": [],
+            "caption": "x-axis",
+            "id": "categories"
+          },
+          {
+            "name": "values",
+            "dataItems": [
+              "model0000016581cb0c22_00000000"
+            ],
+            "caption": "y-axis",
+            "id": "values"
+          }
+        ]
+      },
+      "type": "live",
+      "visId": "com.ibm.vis.rave2line",
+      "name": {
+        "translationTable": {
+          "Default": "Number of Traders per month"
+        }
+      },
+      "showTitle": true,
+      "properties": [
+        {
+          "id": "valueAxis.labels.visible",
+          "value": false
+        },
+        {
+          "id": "valueLabels.visible",
+          "value": true
+        }
+      ]
+    },
+    "model00000166111e4acd_00000000": {
+      "id": "model00000166111e4acd_00000000",
+      "type": "media",
+      "title": {
+        "translationTable": {}
+      },
+      "visTypeLocked": true,
+      "name": ""
+    }
+  }
+}
